@@ -1,0 +1,528 @@
+2025-10-13 18:24:17,627 - app.main - INFO - upload_statement:68 - Received file: hdfc_test.pdf .pdf
+2025-10-13 18:24:17,632 - app.main - INFO - upload_statement:84 - File saved: uploads/f8a6217b-fb6a-4736-a2d7-ad547778e80b_hdfc_test.pdf .pdf
+2025-10-13 18:24:17,645 - app.main - INFO - upload_statement:99 - Extracted 221 characters
+2025-10-13 18:24:17,646 - app.main - INFO - upload_statement:103 - Detected issuer: HDFC Bank
+2025-10-13 18:24:17,647 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'HDFC Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1234', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '01/01/2024 to 31/01/2024', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '20/02/2024', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹15234.50', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 18:24:17,669 - app.main - INFO - upload_statement:131 - Saved to database with ID: f8a6217b-fb6a-4736-a2d7-ad547778e80b
+2025-10-13 18:28:50,245 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:28:50,249 - app.main - INFO - upload_statement:84 - File saved: uploads/225325a4-accb-4f96-8c07-c274c5385b7b_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:28:50,358 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 18:28:50,359 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-13 18:28:50,361 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-13 18:28:50,365 - app.main - INFO - upload_statement:131 - Saved to database with ID: 225325a4-accb-4f96-8c07-c274c5385b7b
+2025-10-13 18:40:11,178 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:40:11,181 - app.main - INFO - upload_statement:84 - File saved: uploads/09b4ddb7-c875-4bf2-acc1-ef4018a5a8e7_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:40:11,302 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 18:40:11,303 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-13 18:40:11,306 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 18:40:11,312 - app.main - INFO - upload_statement:131 - Saved to database with ID: 09b4ddb7-c875-4bf2-acc1-ef4018a5a8e7
+2025-10-13 18:44:28,523 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:44:28,525 - app.main - INFO - upload_statement:84 - File saved: uploads/58123dd9-f45e-4a1c-8b38-547765a41191_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:44:28,644 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 18:44:28,645 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-13 18:44:28,648 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 18:44:28,653 - app.main - INFO - upload_statement:131 - Saved to database with ID: 58123dd9-f45e-4a1c-8b38-547765a41191
+2025-10-13 18:48:53,181 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:48:53,182 - app.main - INFO - upload_statement:84 - File saved: uploads/06326025-d7b5-4ba3-b5e4-4446312f37be_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:48:53,294 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 18:48:53,295 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-13 18:48:53,297 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 18:48:53,302 - app.main - INFO - upload_statement:131 - Saved to database with ID: 06326025-d7b5-4ba3-b5e4-4446312f37be
+2025-10-13 18:56:27,193 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:56:27,197 - app.main - INFO - upload_statement:84 - File saved: uploads/b33bd2dd-040c-4444-8563-57a3966573af_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 18:56:27,362 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 18:56:27,363 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-13 18:56:27,365 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 18:56:27,372 - app.main - INFO - upload_statement:131 - Saved to database with ID: b33bd2dd-040c-4444-8563-57a3966573af
+2025-10-13 19:05:16,291 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:05:16,294 - app.main - INFO - upload_statement:84 - File saved: uploads/6184169c-dc7c-4015-b97a-259d61414555_CardStatement_2025-09-02.pdf
+2025-10-13 19:05:16,530 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:05:16,531 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:05:16,546 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-13 19:05:16,551 - app.main - INFO - upload_statement:131 - Saved to database with ID: 6184169c-dc7c-4015-b97a-259d61414555
+2025-10-13 19:06:29,842 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 19:06:29,843 - app.main - INFO - upload_statement:84 - File saved: uploads/d35aacb7-672d-434b-b65d-af31dedb541d_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 19:06:29,942 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 19:06:29,943 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-13 19:06:29,943 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 19:06:29,947 - app.main - INFO - upload_statement:131 - Saved to database with ID: d35aacb7-672d-434b-b65d-af31dedb541d
+2025-10-13 19:10:40,860 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:10:40,861 - app.main - INFO - upload_statement:84 - File saved: uploads/39872035-92c1-4ee0-ad42-96f39fa22fdb_CardStatement_2025-09-02.pdf
+2025-10-13 19:10:41,069 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:10:41,070 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:10:41,082 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-13 19:10:41,084 - app.main - INFO - upload_statement:131 - Saved to database with ID: 39872035-92c1-4ee0-ad42-96f39fa22fdb
+2025-10-13 19:13:58,223 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:13:58,226 - app.main - INFO - upload_statement:84 - File saved: uploads/e2bf69d9-66ae-4c8e-80df-3948e02ba501_CardStatement_2025-09-02.pdf
+2025-10-13 19:13:58,424 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:13:58,425 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:13:58,433 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-13 19:13:58,438 - app.main - INFO - upload_statement:131 - Saved to database with ID: e2bf69d9-66ae-4c8e-80df-3948e02ba501
+2025-10-13 19:30:41,330 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:30:41,332 - app.main - INFO - upload_statement:84 - File saved: uploads/f29941bc-5c77-4a97-a68b-7a130eb54547_CardStatement_2025-09-02.pdf
+2025-10-13 19:30:41,525 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:30:41,526 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:30:41,535 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-13 19:30:41,543 - app.main - INFO - upload_statement:131 - Saved to database with ID: f29941bc-5c77-4a97-a68b-7a130eb54547
+2025-10-13 19:34:10,715 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 19:34:10,717 - app.main - INFO - upload_statement:84 - File saved: uploads/e5e92ef2-8e70-493b-aff1-14556f257ba4_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 19:34:10,837 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 19:34:10,837 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-13 19:34:10,839 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 19:34:10,841 - app.main - INFO - upload_statement:131 - Saved to database with ID: e5e92ef2-8e70-493b-aff1-14556f257ba4
+2025-10-13 19:40:37,300 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:40:37,302 - app.main - INFO - upload_statement:84 - File saved: uploads/d4292de8-65e1-403b-8409-b33f0cc9c0de_CardStatement_2025-09-02.pdf
+2025-10-13 19:40:37,501 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:40:37,503 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:40:37,511 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-13 19:40:37,515 - app.main - INFO - upload_statement:131 - Saved to database with ID: d4292de8-65e1-403b-8409-b33f0cc9c0de
+2025-10-13 19:43:22,808 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:43:22,810 - app.main - INFO - upload_statement:84 - File saved: uploads/f5e1cca6-321f-498b-a37f-7573e0a68778_CardStatement_2025-09-02.pdf
+2025-10-13 19:43:23,002 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:43:23,003 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:43:23,005 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 19:43:23,011 - app.main - INFO - upload_statement:131 - Saved to database with ID: f5e1cca6-321f-498b-a37f-7573e0a68778
+2025-10-13 19:43:34,933 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 19:43:34,934 - app.main - INFO - upload_statement:84 - File saved: uploads/c938b4a6-b166-4745-a89a-c5cba85aacda_2025-10-13-22-25-55Aug-25.pdf
+2025-10-13 19:43:35,053 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-13 19:43:35,054 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-13 19:43:35,056 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 19:43:35,058 - app.main - INFO - upload_statement:131 - Saved to database with ID: c938b4a6-b166-4745-a89a-c5cba85aacda
+2025-10-13 19:43:52,218 - app.main - INFO - upload_statement:68 - Received file: hdfc_test.pdf .pdf
+2025-10-13 19:43:52,219 - app.main - INFO - upload_statement:84 - File saved: uploads/5e4ddd91-1cf7-4fbe-a039-7e6d6bcfae7c_hdfc_test.pdf .pdf
+2025-10-13 19:43:52,232 - app.main - INFO - upload_statement:99 - Extracted 221 characters
+2025-10-13 19:43:52,232 - app.main - INFO - upload_statement:103 - Detected issuer: HDFC Bank
+2025-10-13 19:43:52,236 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'HDFC Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1234', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '01/01/2024 to 31/01/2024', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '20/02/2024', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹15234.50', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 19:43:52,240 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5e4ddd91-1cf7-4fbe-a039-7e6d6bcfae7c
+2025-10-13 19:44:03,022 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-13 19:44:03,024 - app.main - INFO - upload_statement:84 - File saved: uploads/c52f876f-5051-4120-b866-c4d11f886e09_CardStatement_2025-09-02.pdf
+2025-10-13 19:44:03,202 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-13 19:44:03,203 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-13 19:44:03,204 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-13 19:44:03,206 - app.main - INFO - upload_statement:131 - Saved to database with ID: c52f876f-5051-4120-b866-c4d11f886e09
+2025-10-14 05:59:11,631 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-14 05:59:11,633 - app.main - INFO - upload_statement:84 - File saved: uploads/f359e703-c940-4f0f-86d6-deb3eca54eec_2025-10-13-22-25-55Aug-25.pdf
+2025-10-14 05:59:11,763 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-14 05:59:11,764 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-14 05:59:11,767 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-14 05:59:11,776 - app.main - INFO - upload_statement:131 - Saved to database with ID: f359e703-c940-4f0f-86d6-deb3eca54eec
+2025-10-14 06:00:18,627 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-14 06:00:18,630 - app.main - INFO - upload_statement:84 - File saved: uploads/651043fa-3b78-4c0a-912f-5a83093f388f_CardStatement_2025-09-02.pdf
+2025-10-14 06:00:18,817 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-14 06:00:18,818 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-14 06:00:18,820 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-14 06:00:18,822 - app.main - INFO - upload_statement:131 - Saved to database with ID: 651043fa-3b78-4c0a-912f-5a83093f388f
+2025-10-14 08:52:39,322 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-14 08:52:39,324 - app.main - INFO - upload_statement:84 - File saved: uploads/b24ff4c9-47da-4853-a91f-0051b8f5b51c_CardStatement_2025-09-02.pdf
+2025-10-14 08:52:39,516 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-14 08:52:39,517 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-14 08:52:39,519 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-14 08:52:39,528 - app.main - INFO - upload_statement:131 - Saved to database with ID: b24ff4c9-47da-4853-a91f-0051b8f5b51c
+2025-10-14 08:53:07,554 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-14 08:53:07,556 - app.main - INFO - upload_statement:84 - File saved: uploads/bfa1d835-ecf0-4b5e-a9ec-ed77c5047c34_2025-10-13-22-25-55Aug-25.pdf
+2025-10-14 08:53:07,680 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-14 08:53:07,680 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-14 08:53:07,683 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-14 08:53:07,686 - app.main - INFO - upload_statement:131 - Saved to database with ID: bfa1d835-ecf0-4b5e-a9ec-ed77c5047c34
+2025-10-15 14:39:16,671 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 14:39:16,672 - app.main - INFO - upload_statement:84 - File saved: uploads/3cbbe98d-1f12-4fcd-865a-2b5242a542d4_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 14:39:16,734 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 14:39:16,735 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-15 14:39:16,740 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹324', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 14:39:16,749 - app.main - INFO - upload_statement:131 - Saved to database with ID: 3cbbe98d-1f12-4fcd-865a-2b5242a542d4
+2025-10-15 14:40:09,304 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 14:40:09,306 - app.main - INFO - upload_statement:84 - File saved: uploads/5960e14a-34e1-4a38-af46-01ccf8e0ae46_CardStatement_2025-09-02.pdf
+2025-10-15 14:40:09,501 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 14:40:09,502 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 14:40:09,504 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 14:40:09,506 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5960e14a-34e1-4a38-af46-01ccf8e0ae46
+2025-10-15 14:46:16,649 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 14:46:16,652 - app.main - INFO - upload_statement:84 - File saved: uploads/9c2ed6d7-2cc9-41e1-9e7d-e6827363463f_CardStatement_2025-09-02.pdf
+2025-10-15 14:46:16,853 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 14:46:16,855 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 14:46:16,859 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹25090127243', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 14:46:16,883 - app.main - INFO - upload_statement:131 - Saved to database with ID: 9c2ed6d7-2cc9-41e1-9e7d-e6827363463f
+2025-10-15 14:52:41,988 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 14:52:41,991 - app.main - INFO - upload_statement:84 - File saved: uploads/9acd4477-78ed-49cc-9cca-1b5d39691938_CardStatement_2025-09-02.pdf
+2025-10-15 14:52:42,198 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 14:52:42,199 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 14:52:42,204 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '••86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 14:52:42,229 - app.main - INFO - upload_statement:131 - Saved to database with ID: 9acd4477-78ed-49cc-9cca-1b5d39691938
+2025-10-15 14:55:20,199 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 14:55:20,201 - app.main - INFO - upload_statement:84 - File saved: uploads/ba261274-9aeb-40a4-aa9f-ae86f3ab0169_CardStatement_2025-09-02.pdf
+2025-10-15 14:55:20,390 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 14:55:20,391 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 14:55:20,397 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '••86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 14:55:20,402 - app.main - INFO - upload_statement:131 - Saved to database with ID: ba261274-9aeb-40a4-aa9f-ae86f3ab0169
+2025-10-15 14:56:05,026 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 14:56:05,028 - app.main - INFO - upload_statement:84 - File saved: uploads/f1b80fe1-af60-4023-8ab1-dd2b708aca1c_CardStatement_2025-09-02.pdf
+2025-10-15 14:56:05,234 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 14:56:05,235 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 14:56:05,241 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '••86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 14:56:05,267 - app.main - INFO - upload_statement:131 - Saved to database with ID: f1b80fe1-af60-4023-8ab1-dd2b708aca1c
+2025-10-15 15:00:23,372 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 15:00:23,374 - app.main - INFO - upload_statement:84 - File saved: uploads/1142b3fb-7546-42dc-84ba-69fd71c4532c_CardStatement_2025-09-02.pdf
+2025-10-15 15:00:23,577 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 15:00:23,578 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 15:00:23,584 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '••86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '22 Sep 2025', 'confidence': 0.85, 'method': 'regex_sequence'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-15 15:00:23,589 - app.main - INFO - upload_statement:131 - Saved to database with ID: 1142b3fb-7546-42dc-84ba-69fd71c4532c
+2025-10-15 15:03:59,907 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 15:03:59,911 - app.main - INFO - upload_statement:84 - File saved: uploads/d3e2a097-164c-4533-a46f-0533251c6395_CardStatement_2025-09-02.pdf
+2025-10-15 15:04:00,103 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 15:04:00,104 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 15:04:00,107 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '••86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex_line'}}
+2025-10-15 15:04:00,112 - app.main - INFO - upload_statement:131 - Saved to database with ID: d3e2a097-164c-4533-a46f-0533251c6395
+2025-10-15 15:07:22,628 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 15:07:22,633 - app.main - INFO - upload_statement:84 - File saved: uploads/6421b61f-1bc7-43c9-a79b-390629d18668_CardStatement_2025-09-02.pdf
+2025-10-15 15:07:22,839 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 15:07:22,840 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 15:07:22,844 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '••86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-15 15:07:22,852 - app.main - INFO - upload_statement:131 - Saved to database with ID: 6421b61f-1bc7-43c9-a79b-390629d18668
+2025-10-15 15:07:48,806 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:07:48,808 - app.main - INFO - upload_statement:84 - File saved: uploads/55125847-8001-4417-80df-072581dff0cb_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:07:48,934 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:07:48,935 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:07:48,936 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-15 15:07:48,940 - app.main - INFO - upload_statement:131 - Saved to database with ID: 55125847-8001-4417-80df-072581dff0cb
+2025-10-15 15:08:55,966 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:08:55,969 - app.main - INFO - upload_statement:84 - File saved: uploads/359af56b-7341-46e1-9aaf-6bb31a6d7b74_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:08:56,096 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:08:56,096 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:08:56,099 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 15:08:56,104 - app.main - INFO - upload_statement:131 - Saved to database with ID: 359af56b-7341-46e1-9aaf-6bb31a6d7b74
+2025-10-15 15:10:48,236 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:10:48,240 - app.main - INFO - upload_statement:84 - File saved: uploads/c1116d6d-24ad-446f-836a-f85908b76fb9_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:10:48,361 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:10:48,362 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:10:48,366 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 15:10:48,373 - app.main - INFO - upload_statement:131 - Saved to database with ID: c1116d6d-24ad-446f-836a-f85908b76fb9
+2025-10-15 15:11:00,818 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 15:11:00,821 - app.main - INFO - upload_statement:84 - File saved: uploads/6b9ab155-f4ca-4915-9ff7-02c302ff1ec3_CardStatement_2025-09-02.pdf
+2025-10-15 15:11:01,016 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 15:11:01,017 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 15:11:01,019 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 15:11:01,022 - app.main - INFO - upload_statement:131 - Saved to database with ID: 6b9ab155-f4ca-4915-9ff7-02c302ff1ec3
+2025-10-15 15:16:36,835 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:16:36,839 - app.main - INFO - upload_statement:84 - File saved: uploads/77705870-813d-4a46-9e7d-f71f45517a77_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:16:36,966 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:16:36,967 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:16:36,970 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹87091.92', 'confidence': 0.9, 'method': 'regex'}}
+2025-10-15 15:16:36,976 - app.main - INFO - upload_statement:131 - Saved to database with ID: 77705870-813d-4a46-9e7d-f71f45517a77
+2025-10-15 15:16:46,422 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:16:46,424 - app.main - INFO - upload_statement:84 - File saved: uploads/c99fb594-8497-4953-a678-f867eabcc4c8_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:16:46,553 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:16:46,554 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:16:46,555 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹87091.92', 'confidence': 0.9, 'method': 'regex'}}
+2025-10-15 15:16:46,558 - app.main - INFO - upload_statement:131 - Saved to database with ID: c99fb594-8497-4953-a678-f867eabcc4c8
+2025-10-15 15:16:53,390 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:16:53,392 - app.main - INFO - upload_statement:84 - File saved: uploads/af4f0c06-bc33-494b-98f8-b795bd5402ee_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:16:53,511 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:16:53,512 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:16:53,514 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹87091.92', 'confidence': 0.9, 'method': 'regex'}}
+2025-10-15 15:16:53,516 - app.main - INFO - upload_statement:131 - Saved to database with ID: af4f0c06-bc33-494b-98f8-b795bd5402ee
+2025-10-15 15:17:00,832 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 15:17:00,834 - app.main - INFO - upload_statement:84 - File saved: uploads/6c59c83d-e44b-45a2-a8e3-b0ae4fa8b82b_CardStatement_2025-09-02.pdf
+2025-10-15 15:17:01,010 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 15:17:01,011 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 15:17:01,016 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-15 15:17:01,019 - app.main - INFO - upload_statement:131 - Saved to database with ID: 6c59c83d-e44b-45a2-a8e3-b0ae4fa8b82b
+2025-10-15 15:17:16,075 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:17:16,077 - app.main - INFO - upload_statement:84 - File saved: uploads/5c3e1684-2940-422c-bd72-337cd7d0de58_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 15:17:16,199 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 15:17:16,200 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 15:17:16,203 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 15:17:16,209 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5c3e1684-2940-422c-bd72-337cd7d0de58
+2025-10-15 16:14:00,237 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:14:00,239 - app.main - INFO - upload_statement:84 - File saved: uploads/5122870d-3b54-4f72-ad3e-531a3732c72e_CardStatement_2025-09-02.pdf
+2025-10-15 16:14:00,437 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:14:00,438 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:14:00,440 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:14:00,467 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5122870d-3b54-4f72-ad3e-531a3732c72e
+2025-10-15 16:16:18,890 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:16:18,892 - app.main - INFO - upload_statement:84 - File saved: uploads/dd757838-b3b9-499f-8ff0-41ceb67c30c6_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:16:18,930 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:16:18,931 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-15 16:16:18,935 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹324', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:16:18,939 - app.main - INFO - upload_statement:131 - Saved to database with ID: dd757838-b3b9-499f-8ff0-41ceb67c30c6
+2025-10-15 16:19:26,507 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 16:19:26,509 - app.main - INFO - upload_statement:84 - File saved: uploads/04b889ad-1a5e-4fca-82a1-16a523abe851_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 16:19:26,624 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 16:19:26,625 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 16:19:26,629 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹87091.92', 'confidence': 0.9, 'method': 'regex'}}
+2025-10-15 16:19:26,633 - app.main - INFO - upload_statement:131 - Saved to database with ID: 04b889ad-1a5e-4fca-82a1-16a523abe851
+2025-10-15 16:19:38,007 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:19:38,009 - app.main - INFO - upload_statement:84 - File saved: uploads/440a2f8d-704f-4557-abc3-a360662b1b87_CardStatement_2025-09-02.pdf
+2025-10-15 16:19:38,198 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:19:38,199 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:19:38,206 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-15 16:19:38,209 - app.main - INFO - upload_statement:131 - Saved to database with ID: 440a2f8d-704f-4557-abc3-a360662b1b87
+2025-10-15 16:19:42,889 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:19:42,891 - app.main - INFO - upload_statement:84 - File saved: uploads/7493cd9e-0178-4f41-ae52-4c199056f1bc_CardStatement_2025-09-02.pdf
+2025-10-15 16:19:43,069 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:19:43,070 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:19:43,077 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': None, 'confidence': 0.0, 'method': 'not_found'}}
+2025-10-15 16:19:43,079 - app.main - INFO - upload_statement:131 - Saved to database with ID: 7493cd9e-0178-4f41-ae52-4c199056f1bc
+2025-10-15 16:19:47,755 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:19:47,759 - app.main - INFO - upload_statement:84 - File saved: uploads/77b06147-f07c-4b1c-a488-a00103597e3d_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:19:47,795 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:19:47,796 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-15 16:19:47,798 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:19:47,801 - app.main - INFO - upload_statement:131 - Saved to database with ID: 77b06147-f07c-4b1c-a488-a00103597e3d
+2025-10-15 16:37:16,113 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:37:16,116 - app.main - INFO - upload_statement:84 - File saved: uploads/0ba47f57-6012-4c1d-a869-48542795e402_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:37:16,168 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:37:16,169 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-15 16:37:16,171 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:37:16,177 - app.main - INFO - upload_statement:131 - Saved to database with ID: 0ba47f57-6012-4c1d-a869-48542795e402
+2025-10-15 16:37:52,213 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:37:52,215 - app.main - INFO - upload_statement:84 - File saved: uploads/5ae323e2-00b5-4e36-929e-9c87b93cdb93_CardStatement_2025-09-02.pdf
+2025-10-15 16:37:52,392 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:37:52,392 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:37:52,396 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:37:52,398 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5ae323e2-00b5-4e36-929e-9c87b93cdb93
+2025-10-15 16:37:56,542 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:37:56,544 - app.main - INFO - upload_statement:84 - File saved: uploads/f77b5d7d-07ed-4d00-9b29-3b7ead11e22b_CardStatement_2025-09-02.pdf
+2025-10-15 16:37:56,737 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:37:56,738 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:37:56,741 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:37:56,743 - app.main - INFO - upload_statement:131 - Saved to database with ID: f77b5d7d-07ed-4d00-9b29-3b7ead11e22b
+2025-10-15 16:38:01,464 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 16:38:01,465 - app.main - INFO - upload_statement:84 - File saved: uploads/999fdc14-b1e0-4f09-9827-bbe19443f870_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 16:38:01,572 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 16:38:01,572 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 16:38:01,575 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:38:01,577 - app.main - INFO - upload_statement:131 - Saved to database with ID: 999fdc14-b1e0-4f09-9827-bbe19443f870
+2025-10-15 16:48:40,295 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:48:40,297 - app.main - INFO - upload_statement:84 - File saved: uploads/9f4ad1a9-4906-4b74-8dcc-459588618a9f_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:48:40,348 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:48:40,349 - app.main - INFO - upload_statement:103 - Detected issuer: Unknown
+2025-10-15 16:48:40,350 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Unknown', 'confidence': 0.5, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:48:40,356 - app.main - INFO - upload_statement:131 - Saved to database with ID: 9f4ad1a9-4906-4b74-8dcc-459588618a9f
+2025-10-15 16:50:28,447 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:50:28,448 - app.main - INFO - upload_statement:84 - File saved: uploads/de491877-7762-446d-8f24-2d66d45c98fb_CardStatement_2025-09-02.pdf
+2025-10-15 16:50:28,634 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:50:28,637 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:50:28,641 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:50:28,645 - app.main - INFO - upload_statement:131 - Saved to database with ID: de491877-7762-446d-8f24-2d66d45c98fb
+2025-10-15 16:50:42,425 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:50:42,426 - app.main - INFO - upload_statement:84 - File saved: uploads/998c26c6-9cc7-4c97-81af-3626f0c066a7_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:50:42,462 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:50:42,463 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 16:50:42,464 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:50:42,467 - app.main - INFO - upload_statement:131 - Saved to database with ID: 998c26c6-9cc7-4c97-81af-3626f0c066a7
+2025-10-15 16:56:42,898 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 16:56:42,900 - app.main - INFO - upload_statement:84 - File saved: uploads/d7fe40bf-719a-45f5-9a54-e0ca95ebd9c4_CardStatement_2025-09-02.pdf
+2025-10-15 16:56:43,087 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 16:56:43,091 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 16:56:43,097 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:56:43,101 - app.main - INFO - upload_statement:131 - Saved to database with ID: d7fe40bf-719a-45f5-9a54-e0ca95ebd9c4
+2025-10-15 16:56:50,136 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 16:56:50,137 - app.main - INFO - upload_statement:84 - File saved: uploads/472c6720-6f56-4863-8893-15c09a02997b_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 16:56:50,254 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 16:56:50,255 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 16:56:50,258 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 16:56:50,260 - app.main - INFO - upload_statement:131 - Saved to database with ID: 472c6720-6f56-4863-8893-15c09a02997b
+2025-10-15 16:56:57,692 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:56:57,692 - app.main - INFO - upload_statement:84 - File saved: uploads/f2888704-c3cd-4b95-8271-5ff426c67b9f_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:56:57,729 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:56:57,729 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 16:56:57,730 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:56:57,733 - app.main - INFO - upload_statement:131 - Saved to database with ID: f2888704-c3cd-4b95-8271-5ff426c67b9f
+2025-10-15 16:57:01,158 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:57:01,159 - app.main - INFO - upload_statement:84 - File saved: uploads/9596bcf4-0c62-469f-9426-4c1affc7679e_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 16:57:01,195 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 16:57:01,196 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 16:57:01,196 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:57:01,199 - app.main - INFO - upload_statement:131 - Saved to database with ID: 9596bcf4-0c62-469f-9426-4c1affc7679e
+2025-10-15 16:57:05,029 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 16:57:05,031 - app.main - INFO - upload_statement:84 - File saved: uploads/edc241c6-8f52-45a3-af87-875afa9e0b40_AXISCCSAMPLE.pdf
+2025-10-15 16:57:05,085 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 16:57:05,086 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 16:57:05,089 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19 GST 119 to 19 GST 30', 'confidence': 0.7, 'method': 'fallback'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 16:57:05,092 - app.main - INFO - upload_statement:131 - Saved to database with ID: edc241c6-8f52-45a3-af87-875afa9e0b40
+2025-10-15 17:02:08,168 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:02:08,170 - app.main - INFO - upload_statement:84 - File saved: uploads/ea937141-5c0e-47fc-9109-e3cefb4db7c3_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:02:08,285 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:02:08,287 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:02:08,291 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:02:08,296 - app.main - INFO - upload_statement:131 - Saved to database with ID: ea937141-5c0e-47fc-9109-e3cefb4db7c3
+2025-10-15 17:02:10,797 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:02:10,798 - app.main - INFO - upload_statement:84 - File saved: uploads/d6649532-7596-4adc-a26a-b08924e73f63_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:02:10,922 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:02:10,923 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:02:10,925 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:02:10,927 - app.main - INFO - upload_statement:131 - Saved to database with ID: d6649532-7596-4adc-a26a-b08924e73f63
+2025-10-15 17:02:16,060 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:02:16,061 - app.main - INFO - upload_statement:84 - File saved: uploads/b99a4875-133a-4bd3-b7ff-130138397bff_CardStatement_2025-09-02.pdf
+2025-10-15 17:02:16,249 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:02:16,252 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:02:16,257 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:02:16,259 - app.main - INFO - upload_statement:131 - Saved to database with ID: b99a4875-133a-4bd3-b7ff-130138397bff
+2025-10-15 17:02:22,812 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:02:22,814 - app.main - INFO - upload_statement:84 - File saved: uploads/477b2bbc-7881-4939-ac18-5b62c3d0f6da_CardStatement_2025-09-02.pdf
+2025-10-15 17:02:22,989 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:02:22,991 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:02:22,997 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:02:22,999 - app.main - INFO - upload_statement:131 - Saved to database with ID: 477b2bbc-7881-4939-ac18-5b62c3d0f6da
+2025-10-15 17:02:30,526 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:02:30,527 - app.main - INFO - upload_statement:84 - File saved: uploads/6ba9b04a-54ba-447a-b8f1-8a17e7e34325_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:02:30,563 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 17:02:30,564 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 17:02:30,565 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:02:30,568 - app.main - INFO - upload_statement:131 - Saved to database with ID: 6ba9b04a-54ba-447a-b8f1-8a17e7e34325
+2025-10-15 17:02:38,343 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:02:38,345 - app.main - INFO - upload_statement:84 - File saved: uploads/315638be-59dd-46d1-8b00-41ac5a10efaf_AXISCCSAMPLE.pdf
+2025-10-15 17:02:38,395 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:02:38,396 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:02:38,399 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19 GST 119 to 19 GST 30', 'confidence': 0.7, 'method': 'fallback'}, 'due_date': {'value': '19/10/2019', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:02:38,401 - app.main - INFO - upload_statement:131 - Saved to database with ID: 315638be-59dd-46d1-8b00-41ac5a10efaf
+2025-10-15 17:05:45,605 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:05:45,606 - app.main - INFO - upload_statement:84 - File saved: uploads/eeb4425c-8f83-4809-a3c1-5b0951d1df0c_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:05:45,723 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:05:45,724 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:05:45,729 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:05:45,733 - app.main - INFO - upload_statement:131 - Saved to database with ID: eeb4425c-8f83-4809-a3c1-5b0951d1df0c
+2025-10-15 17:05:48,082 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:05:48,084 - app.main - INFO - upload_statement:84 - File saved: uploads/4660767e-e7b0-4ee5-a7b4-e15887c42919_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:05:48,199 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:05:48,200 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:05:48,202 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:05:48,204 - app.main - INFO - upload_statement:131 - Saved to database with ID: 4660767e-e7b0-4ee5-a7b4-e15887c42919
+2025-10-15 17:05:52,844 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:05:52,846 - app.main - INFO - upload_statement:84 - File saved: uploads/463ab4f9-045b-446e-8ba4-68333b060c10_CardStatement_2025-09-02.pdf
+2025-10-15 17:05:53,037 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:05:53,040 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:05:53,045 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:05:53,047 - app.main - INFO - upload_statement:131 - Saved to database with ID: 463ab4f9-045b-446e-8ba4-68333b060c10
+2025-10-15 17:05:58,640 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:05:58,641 - app.main - INFO - upload_statement:84 - File saved: uploads/060eda7f-534a-4aac-84d3-fbf380c97bde_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:05:58,680 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 17:05:58,681 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 17:05:58,682 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:05:58,684 - app.main - INFO - upload_statement:131 - Saved to database with ID: 060eda7f-534a-4aac-84d3-fbf380c97bde
+2025-10-15 17:06:04,279 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:06:04,281 - app.main - INFO - upload_statement:84 - File saved: uploads/e5e41b27-91bb-41c5-b33c-2c52632f2bc3_AXISCCSAMPLE.pdf
+2025-10-15 17:06:04,332 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:06:04,332 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:06:04,334 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:06:04,337 - app.main - INFO - upload_statement:131 - Saved to database with ID: e5e41b27-91bb-41c5-b33c-2c52632f2bc3
+2025-10-15 17:11:28,819 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:11:28,820 - app.main - INFO - upload_statement:84 - File saved: uploads/5a153d44-a74c-4491-83c2-1e0914b4ffa8_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:11:28,935 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:11:28,936 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:11:28,938 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15/08/2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:11:28,944 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5a153d44-a74c-4491-83c2-1e0914b4ffa8
+2025-10-15 17:11:38,526 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:11:38,528 - app.main - INFO - upload_statement:84 - File saved: uploads/ad04835f-dff3-4500-95d8-f50166d2e7b2_CardStatement_2025-09-02.pdf
+2025-10-15 17:11:38,715 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:11:38,718 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:11:38,724 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:11:38,726 - app.main - INFO - upload_statement:131 - Saved to database with ID: ad04835f-dff3-4500-95d8-f50166d2e7b2
+2025-10-15 17:11:45,125 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:11:45,126 - app.main - INFO - upload_statement:84 - File saved: uploads/b654425c-f1cc-444d-bfea-609356d3a9d3_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:11:45,165 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 17:11:45,165 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 17:11:45,167 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:11:45,169 - app.main - INFO - upload_statement:131 - Saved to database with ID: b654425c-f1cc-444d-bfea-609356d3a9d3
+2025-10-15 17:11:54,383 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:11:54,384 - app.main - INFO - upload_statement:84 - File saved: uploads/e1b945db-da8b-4c9c-9484-a1b66720f173_AXISCCSAMPLE.pdf
+2025-10-15 17:11:54,433 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:11:54,434 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:11:54,434 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '17/10/2019', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:11:54,436 - app.main - INFO - upload_statement:131 - Saved to database with ID: e1b945db-da8b-4c9c-9484-a1b66720f173
+2025-10-15 17:15:28,920 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:15:28,922 - app.main - INFO - upload_statement:84 - File saved: uploads/777bbe49-d2f8-4fd1-a8e3-b73b933211c2_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:15:29,039 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:15:29,040 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:15:29,045 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:15:29,050 - app.main - INFO - upload_statement:131 - Saved to database with ID: 777bbe49-d2f8-4fd1-a8e3-b73b933211c2
+2025-10-15 17:15:35,061 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:15:35,063 - app.main - INFO - upload_statement:84 - File saved: uploads/96acb50a-f2e2-4a9d-a748-46027cd4c051_CardStatement_2025-09-02.pdf
+2025-10-15 17:15:35,255 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:15:35,258 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:15:35,263 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:15:35,265 - app.main - INFO - upload_statement:131 - Saved to database with ID: 96acb50a-f2e2-4a9d-a748-46027cd4c051
+2025-10-15 17:15:41,376 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:15:41,377 - app.main - INFO - upload_statement:84 - File saved: uploads/59a9a432-7305-4d69-8028-9308e47fef6d_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:15:41,413 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 17:15:41,413 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 17:15:41,415 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:15:41,417 - app.main - INFO - upload_statement:131 - Saved to database with ID: 59a9a432-7305-4d69-8028-9308e47fef6d
+2025-10-15 17:15:47,763 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:15:47,764 - app.main - INFO - upload_statement:84 - File saved: uploads/b4d573ed-db69-4a81-9bd8-b221f2f69ca1_AXISCCSAMPLE.pdf
+2025-10-15 17:15:47,816 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:15:47,817 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:15:47,817 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '28/10/2019', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:15:47,819 - app.main - INFO - upload_statement:131 - Saved to database with ID: b4d573ed-db69-4a81-9bd8-b221f2f69ca1
+2025-10-15 17:20:54,506 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:20:54,509 - app.main - INFO - upload_statement:84 - File saved: uploads/395fba55-caa2-47f4-a4ff-fec8a6422e2b_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:20:54,623 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:20:54,624 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:20:54,629 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:20:54,634 - app.main - INFO - upload_statement:131 - Saved to database with ID: 395fba55-caa2-47f4-a4ff-fec8a6422e2b
+2025-10-15 17:21:00,662 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:21:00,663 - app.main - INFO - upload_statement:84 - File saved: uploads/c2fd1f75-a7c8-49e4-8e90-2c815d27dc36_CardStatement_2025-09-02.pdf
+2025-10-15 17:21:00,855 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:21:00,858 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:21:00,864 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:21:00,866 - app.main - INFO - upload_statement:131 - Saved to database with ID: c2fd1f75-a7c8-49e4-8e90-2c815d27dc36
+2025-10-15 17:21:07,225 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:21:07,226 - app.main - INFO - upload_statement:84 - File saved: uploads/e88fbaf0-fd69-4bc2-9785-234c672efb86_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:21:07,265 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 17:21:07,265 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 17:21:07,266 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:21:07,269 - app.main - INFO - upload_statement:131 - Saved to database with ID: e88fbaf0-fd69-4bc2-9785-234c672efb86
+2025-10-15 17:21:14,445 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:21:14,446 - app.main - INFO - upload_statement:84 - File saved: uploads/ab95d9dd-6521-450e-8181-fca5736bee53_AXISCCSAMPLE.pdf
+2025-10-15 17:21:14,495 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:21:14,496 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:21:14,498 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:21:14,500 - app.main - INFO - upload_statement:131 - Saved to database with ID: ab95d9dd-6521-450e-8181-fca5736bee53
+2025-10-15 17:27:37,638 - app.main - INFO - upload_statement:68 - Received file: 2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:27:37,643 - app.main - INFO - upload_statement:84 - File saved: uploads/54238698-2963-42e6-87ed-a8c17615e046_2025-10-13-22-25-55Aug-25.pdf
+2025-10-15 17:27:37,755 - app.main - INFO - upload_statement:99 - Extracted 3193 characters
+2025-10-15 17:27:37,757 - app.main - INFO - upload_statement:103 - Detected issuer: Kotak Mahindra
+2025-10-15 17:27:37,762 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Kotak Mahindra', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '1420', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '26-Jul-2025 to 5-Aug-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '15-Sep-2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹68411.42', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:27:37,768 - app.main - INFO - upload_statement:131 - Saved to database with ID: 54238698-2963-42e6-87ed-a8c17615e046
+2025-10-15 17:27:46,976 - app.main - INFO - upload_statement:68 - Received file: CardStatement_2025-09-02.pdf
+2025-10-15 17:27:46,978 - app.main - INFO - upload_statement:84 - File saved: uploads/e7a4efc1-4182-400c-a72c-b254584d8886_CardStatement_2025-09-02.pdf
+2025-10-15 17:27:47,172 - app.main - INFO - upload_statement:99 - Extracted 34063 characters
+2025-10-15 17:27:47,175 - app.main - INFO - upload_statement:103 - Detected issuer: SBI Card
+2025-10-15 17:27:47,182 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'SBI Card', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '86', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '03-Aug-25 to 02-Sep-25', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '02 Sep 2025', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹100.00', 'confidence': 0.85, 'method': 'regex'}}
+2025-10-15 17:27:47,184 - app.main - INFO - upload_statement:131 - Saved to database with ID: e7a4efc1-4182-400c-a72c-b254584d8886
+2025-10-15 17:27:52,425 - app.main - INFO - upload_statement:68 - Received file: CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:27:52,425 - app.main - INFO - upload_statement:84 - File saved: uploads/2d7197d5-6381-42a3-aa21-bc5133eea5db_CCLastStatement26-09-2025 (1).pdf
+2025-10-15 17:27:52,463 - app.main - INFO - upload_statement:99 - Extracted 1363 characters
+2025-10-15 17:27:52,464 - app.main - INFO - upload_statement:103 - Detected issuer: ICICI Bank
+2025-10-15 17:27:52,465 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'ICICI Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'billing_cycle': {'value': '27-08-2025 to 26-09-2025', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '13-10-2025', 'confidence': 0.95, 'method': 'regex'}, 'total_amount_due': {'value': '₹32472.77', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:27:52,467 - app.main - INFO - upload_statement:131 - Saved to database with ID: 2d7197d5-6381-42a3-aa21-bc5133eea5db
+2025-10-15 17:27:58,195 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:27:58,197 - app.main - INFO - upload_statement:84 - File saved: uploads/cef0dc0a-2207-4fac-9c27-90f628b2fa05_AXISCCSAMPLE.pdf
+2025-10-15 17:27:58,246 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:27:58,247 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:27:58,249 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:27:58,251 - app.main - INFO - upload_statement:131 - Saved to database with ID: cef0dc0a-2207-4fac-9c27-90f628b2fa05
+2025-10-15 17:28:13,292 - app.main - INFO - upload_statement:68 - Received file: HDFC_STATEMENT.pdf
+2025-10-15 17:28:13,293 - app.main - INFO - upload_statement:84 - File saved: uploads/0e65aeda-5b60-43a1-9ad3-96dfbb6f1a95_HDFC_STATEMENT.pdf
+2025-10-15 17:28:13,314 - app.main - INFO - upload_statement:99 - Extracted 2784 characters
+2025-10-15 17:28:13,315 - app.main - INFO - upload_statement:103 - Detected issuer: HDFC Bank
+2025-10-15 17:28:13,323 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'HDFC Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '2092', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'due_date': {'value': None, 'confidence': 0.0, 'method': 'not_found'}, 'total_amount_due': {'value': '₹33086.79', 'confidence': 0.7, 'method': 'fallback'}}
+2025-10-15 17:28:13,327 - app.main - INFO - upload_statement:131 - Saved to database with ID: 0e65aeda-5b60-43a1-9ad3-96dfbb6f1a95
+2025-10-15 17:30:13,024 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:30:13,025 - app.main - INFO - upload_statement:84 - File saved: uploads/ae018fed-dcd2-4567-82ca-92628406138e_AXISCCSAMPLE.pdf
+2025-10-15 17:30:13,076 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:30:13,077 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:30:13,078 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '28/10/2019', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:30:13,082 - app.main - INFO - upload_statement:131 - Saved to database with ID: ae018fed-dcd2-4567-82ca-92628406138e
+2025-10-15 17:38:13,481 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:38:13,485 - app.main - INFO - upload_statement:84 - File saved: uploads/c22960a5-26be-4ffe-93bd-3aff8a2de0da_AXISCCSAMPLE.pdf
+2025-10-15 17:38:13,551 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:38:13,552 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:38:13,553 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '28/10/2019', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:38:13,577 - app.main - INFO - upload_statement:131 - Saved to database with ID: c22960a5-26be-4ffe-93bd-3aff8a2de0da
+2025-10-15 17:38:13,609 - app.main - INFO - upload_statement:68 - Received file: AXISCCSAMPLE.pdf
+2025-10-15 17:38:13,610 - app.main - INFO - upload_statement:84 - File saved: uploads/5885ee38-edaa-4bc1-99a9-4a13589626f3_AXISCCSAMPLE.pdf
+2025-10-15 17:38:13,651 - app.main - INFO - upload_statement:99 - Extracted 3385 characters
+2025-10-15 17:38:13,652 - app.main - INFO - upload_statement:103 - Detected issuer: Axis Bank
+2025-10-15 17:38:13,652 - app.main - INFO - upload_statement:107 - Extracted fields: {'issuer': {'value': 'Axis Bank', 'confidence': 1.0, 'method': 'pattern_matching'}, 'card_last_four': {'value': '5541', 'confidence': 0.9, 'method': 'regex'}, 'billing_cycle': {'value': '19/10/2019 to 18/11/2019', 'confidence': 0.85, 'method': 'regex'}, 'due_date': {'value': '28/10/2019', 'confidence': 0.9, 'method': 'regex'}, 'total_amount_due': {'value': '₹30637.16', 'confidence': 0.95, 'method': 'regex'}}
+2025-10-15 17:38:13,654 - app.main - INFO - upload_statement:131 - Saved to database with ID: 5885ee38-edaa-4bc1-99a9-4a13589626f3
